@@ -7,9 +7,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>こんにちは、Vive Coding!</h1>
-    <p>これはテストページです。</p>
-    <button id="testButton">クリックしてね</button>
+    <div id="loginContainer">
+        <h2>パスワードを入力してください</h2>
+        <input type="password" id="passwordInput" placeholder="パスワード">
+        <button id="loginButton">ログイン</button>
+        <p id="errorMessage" style="color: red; display: none;">パスワードが間違っています。</p>
+    </div>
+
+    <div id="mainContent" style="display: none;">
+        <h1>こんにちは、Vive Coding!</h1>
+        <p>これはテストページです。</p>
+        <button id="testButton">クリックしてね</button>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const mainContent = document.getElementById('mainContent');
     const testButton = document.getElementById('testButton');
 
-    const CORRECT_PASSWORD = 'your_password'; // ここにパスワードを設定してください
+    const CORRECT_PASSWORD = 'mysecretpassword'; // ここにパスワードを設定してください
 
     // 認証状態をチェック
     if (sessionStorage.getItem('authenticated') === 'true') {
